@@ -1,12 +1,19 @@
+New code
 public static void main( String[] args)
 {
 	Scanner in = new Scanner( System.in);
 	int number = in.nextInt();
 	
 	int i=0;
-	
-	while ( i < n){
-	System.out.println("Hello World");
+	int rem=0;
+	int sum=0;
+	while (n > i){
+	rem = n % 10;
+	sum= sum*10 + rem;
+	n = n/10;	
 	i++;
 	}
+	System.out.println(sum);
 }
+
+some important work that client asked urgently so I had to put my previos file in stash
